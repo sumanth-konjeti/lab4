@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TABLES</title>
+        <style>
+            table.div1 {
+                table-layout:auto;
+            }
+            table.div2{
+                empty-cells: show;
+            }
+            table.div3{
+                border-collapse: collapse;
+            }
+            table.div4{
+                border-collapse: separate;
+                border-spacing: 20px 20px
+            }
+            table.div5{
+                caption-side: bottom;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Set the layout of a table: This example demonstrates how to set the layout of a table.</p>
+            <table class="div1" border="10">
+                <tr>
+                    <td width="25%">cell1</td>
+                    <td width="25%">cell2</td>
+                    <td width="50%">cell3</td>
+                </tr>
+                <tr>
+                    <td>cell4</td>
+                    <td>cell5</td>
+                    <td>cell6</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Show empty cells in a table: This example demonstrates whether or not to show empty cells in a table.</p>
+            <table class="div2" border="10">
+                <tr>
+                    <td>cell1</td>
+                    <td>cell2</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>cell4</td>
+                    <td></td>
+                    <td>cell6</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Collapse a table border: This example demonstrates whether the table borders are collapsed into a single border or detached as in standard HTML</p>
+            <table class="div3" border="1">
+                <tr>
+                    <td>cell1</td>
+                    <td>cell2</td>
+                    <td>cell3</td>
+                </tr>
+                <tr>
+                    <td>cell4</td>
+                    <td>cell5</td>
+                    <td>cell6</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Set the space between table borders: This example demonstrates how to set the distance between cell borders.</p>
+            <table class="div4" border="30">
+                <tr>
+                    <td>cell1</td>
+                    <td>cell2</td>
+                    <td>cell3</td>
+                </tr>
+                <tr>
+                    <td>cell4</td>
+                    <td>cell5</td>
+                    <td>cell6</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p>Set the position of the table caption: This example demonstrates how to position the table caption.</p>
+            <table class="div5" border="25">
+                <caption>"caption caption"</caption>
+                <tr>
+                    <td>cell1</td>
+                    <td>cell2</td>
+                    <td>cell3</td>
+                    <td>cell4</td>
+                </tr>
+                <tr>
+                    <td>cell5</td>
+                    <td>cell6</td>
+                    <td>cell7</td>
+                    <td>cell8</td>
+                </tr>
+                <tr>
+                    <td>cell9</td>
+                    <td>cell10</td>
+                    <td>cell11</td>
+                    <td>cell12</td>
+                </tr>
+            </table>
+        </div>
+    </body>    
+</html>
